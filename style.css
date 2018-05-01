@@ -16,8 +16,9 @@ body{
 }
 .navbar a:hover{
   background-color: #666666;
-.footer{
-  padding: 20px;
-  text-align: center;
-  background: #000000;
+  
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
 }
