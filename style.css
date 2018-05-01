@@ -19,6 +19,7 @@ body{
   
 .footer {
     padding: 20px;
+    display: block;
     color: white;
     text-align: center;
     background-color: black;
