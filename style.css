@@ -1,11 +1,11 @@
-body{
+body {
   font-family: sans-serif;
 }
-.navbar{
+.navbar {
   overflow: hidden;
   background-color: black;
 }
-.navbar a{
+.navbar a {
   float: left;
   display: block;
   color: white;
@@ -14,10 +14,11 @@ body{
   text-decoration: none;
   transition: .3s;
 }
-.navbar a:hover{
+.navbar a:hover {
   background-color: #666666;
   
-.footer{
+footer {
+    width: 100%;
     padding: 60px 0px;
     color: white;
     text-align: center;
