@@ -15,5 +15,5 @@ body{
   transition: .3s;
 }
 .navbar a:hover{
-  background-color: dimgrey;
+  background-color: #666666;
 }
