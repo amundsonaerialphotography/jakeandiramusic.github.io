@@ -12,4 +12,8 @@ body{
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  transition: .3s;
+}
+.navbar a:hover{
+  background-color: dimgrey;
 }
