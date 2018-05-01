@@ -17,7 +17,7 @@ body{
 .navbar a:hover{
   background-color: #666666;
   
-footer{
+.footer{
     padding: 20px;
     display: block;
     color: white;
