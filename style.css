@@ -23,3 +23,19 @@ footer {
     padding: 60px 0px;
     
 }
+  .foot {
+   text-align: center;
+   background-color: #000000;
+   color: #222;
+}
+  .favbar_b {
+    text-align: center;
+    overflow: hidden;
+  }
+  .favbar_b a {
+    text-align: center;
+    color: #222;
+    padding: 10px 20px;
+    background-color: inherit;
+  }
+
