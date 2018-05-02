@@ -29,6 +29,11 @@ body {
    background:#999;
     
 }
+.pic1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
   
 .hometext {
   position: absolute;
