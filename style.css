@@ -29,7 +29,7 @@ body {
    background:#999;
     
 }
-.imageWrapper img {
+img {
    width: auto;
    padding: 0px 25px;
 }
