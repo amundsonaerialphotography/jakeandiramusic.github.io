@@ -29,16 +29,15 @@ body {
    background:#999;
     
 }
-.pic1 {
-    position: relative;
-    text-align: center;
-    color: white;
+.pic1 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
 }
-  
-.hometext {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+hometext { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
 }
   
