@@ -19,7 +19,7 @@ body {
   
 footer {
     width: 100%;
-    background-color: #222;
+    background-color: #000000;
     padding: 60px 0px;
     
 }
@@ -31,11 +31,12 @@ footer {
   .favbar_b {
     text-align: center;
     overflow: hidden;
+    background-color: #000000;
   }
   .favbar_b a {
     text-align: center;
     color: #222;
     padding: 10px 20px;
-    background-color: inherit;
+    background-color: #000000;
   }
 
