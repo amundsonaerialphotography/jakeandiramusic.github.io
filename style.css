@@ -29,11 +29,9 @@ img {
   text-align: center;
 }
 
-pic1 {
-  
-  width: 504 px;
-  height: 378 px;
-  
+.pic1 {
+  width: 20%;
+  height: 20%;
 }
 
 .Photos{
