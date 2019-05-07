@@ -1,7 +1,9 @@
 
 body {
   font-family: sans-serif;
-  background-color: #252525;
+  background-image: url(vintage.jpg);
+  bbackground-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
