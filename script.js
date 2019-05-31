@@ -6,8 +6,9 @@ function facebookopen() {
 
 var password = "block";
 
-if (window.location = “jakeandiramusic.site/?box=allow” {
+if (window.location = “http://jakeandiramusic.site/?box=allow” {
   
+  alert(window.location);
   body.style.display = "none";
   password = prompt("It's looks too stupid, so If you want to see, enter the password 😏! ");
   
