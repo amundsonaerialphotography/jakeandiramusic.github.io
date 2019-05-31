@@ -6,7 +6,7 @@ function facebookopen() {
 
 var password = "block";
 
-if (window.location.href = ‘http://jakeandiramusic.site/?box=allow’) {
+if (window.location.href == ‘http://jakeandiramusic.site/?box=allow’) {
   
   alert(window.location.href);
   body.style.display = "none";
