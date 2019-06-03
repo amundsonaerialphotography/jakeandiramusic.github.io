@@ -39,5 +39,5 @@ function ppmt() {
 }
 
 function close1() {
-  fbpmt.style.display = "none";
+  ppmt.style.display = "none";
 }
