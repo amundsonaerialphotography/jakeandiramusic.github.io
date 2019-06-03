@@ -10,7 +10,11 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   alert(window.location.href);
   document.getElementsByTagName("body")[0].style.display = "none";
-  ppmt();
+  
+  alert("It's looks too stupid, but if you want to see, enter the password! 😏 ");
+  ppmt.style.display = "inline";
+  document.getElementById("ppmt_tx").innerHTML = ("It's looks too stupid, but if you want to see, enter the password! 😏 ");
+
   
   
   
@@ -28,13 +32,6 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
 }else{
 
 alert("Don't laugh; It's getting a redo😎");
-
-}
-
-function ppmt() {
-  alert("It's looks too stupid, but if you want to see, enter the password! 😏 ");
-  ppmt.style.display = "inline";
-  document.getElementById("ppmt_tx").innerHTML = ("It's looks too stupid, but if you want to see, enter the password! 😏 ");
 
 }
 
