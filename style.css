@@ -8,6 +8,106 @@ body {
   background-color: 
 }
 
+
+/*_____________________________*/
+
+.ppmt {
+  position: fixed;
+  z-index: 1;
+  display: none;
+  left: 30%;
+  background-color: #ffffff;
+  width: 500px;
+  height: 235px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e8e8e8;
+}
+
+.ppmt_tx {
+  text-align: center;
+  font-size: 30px;
+}
+
+#close1 {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  border-style: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  top: -20px;
+  right: -20px;
+  transition: .2s;
+}
+
+#close1:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+
+#buttond1 {
+  bottom: 0px;
+}
+
+
+
+#open1 {
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-style: none;
+  width: 130px;
+  height: 130px;
+  background-color: #e8e8e8;
+}
+
+#open1:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+#open2 {
+  font-size: 15px;
+  position: absolute;
+  left: 187px;
+  border-radius: 10px;
+  border-style: none;
+  width: 130px;
+  height: 130px;
+  background-color: #e8e8e8;
+}
+
+#open2:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+#open3 {
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-style: none;
+  width: 130px;
+  height: 130px;
+  background-color: #e8e8e8;
+}
+
+#open3:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+
+
+
+/*_____________________________*/
+
 .navbar {
   overflow: hidden;
   background-color: #ffffff;
