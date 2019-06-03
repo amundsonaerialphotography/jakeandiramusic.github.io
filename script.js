@@ -9,7 +9,7 @@ var password = "block";
 if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   alert(window.location.href);
-  body.style.display = "none";
+  document.getElementsByTagName("body")[0].style.display = "none";
   ppmt();
   
   
@@ -17,7 +17,7 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   function go() {
   if (password = "iltsm11") {
-    body.style.display = "inline";
+    document.getElementsByTagName("body")[0].style.display = "inline";
   }}
   
   
