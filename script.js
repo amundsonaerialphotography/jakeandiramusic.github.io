@@ -29,3 +29,7 @@ function ppmt(txt) {
   document.getElementById("ppmt_tx").innerHTML = (txt);
 
 }
+
+function close1() {
+  fbpmt.style.display = "none";
+}
