@@ -10,7 +10,7 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   alert(window.location.href);
   body.style.display = "none";
-  password = prompt("It's looks too stupid, so If you want to see, enter the password 😏! ");
+  password = ppmt("It's looks too stupid, so If you want to see, enter the password 😏! ");
   
   if (password = "iltsm11") {
     body.style.display = "inline";
@@ -21,4 +21,10 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
 
 alert("Don't laugh; It's getting a redo😎");
 
+}
+
+function ppmt(txt) {
+  var txt;
+  ppmt.style.display = "inline";
+  alert(txt);
 }
