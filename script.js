@@ -32,6 +32,7 @@ alert("Don't laugh; It's getting a redo😎");
 }
 
 function ppmt(txt) {
+  alert();
   var txt;
   ppmt.style.display = "inline";
   document.getElementById("ppmt_tx").innerHTML = (txt);
