@@ -10,7 +10,7 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   alert(window.location.href);
   body.style.display = "none";
-  password = ppmt("It's looks too stupid, so If you want to see, enter the password 😏! ");
+  ppmt("It's looks too stupid, but if you want to see, enter the password! 😏 ");
   
   if (password = "iltsm11") {
     body.style.display = "inline";
@@ -26,5 +26,6 @@ alert("Don't laugh; It's getting a redo😎");
 function ppmt(txt) {
   var txt;
   ppmt.style.display = "inline";
-  alert(txt);
+  document.getElementById("ppmt_tx").innerHTML = (txt);
+
 }
