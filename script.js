@@ -10,7 +10,7 @@ if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
   
   alert(window.location.href);
   body.style.display = "none";
-  ppmt("It's looks too stupid, but if you want to see, enter the password! 😏 ");
+  ppmt();
   
   
   
@@ -31,11 +31,10 @@ alert("Don't laugh; It's getting a redo😎");
 
 }
 
-function ppmt(txt) {
-  alert();
-  var txt;
+function ppmt() {
+  alert("It's looks too stupid, but if you want to see, enter the password! 😏 ");
   ppmt.style.display = "inline";
-  document.getElementById("ppmt_tx").innerHTML = (txt);
+  document.getElementById("ppmt_tx").innerHTML = ("It's looks too stupid, but if you want to see, enter the password! 😏 ");
 
 }
 
