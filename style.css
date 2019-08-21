@@ -133,12 +133,14 @@ img {
 
 .banjo {
   float: left;
-  left: 0;
+  left: -10;
+  position: fixed;
 }
 
 .guitar {
   float: right;
-  right: 0;
+  right: -30;
+  position: fixed;
 }
 
 
