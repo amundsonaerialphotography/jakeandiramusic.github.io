@@ -1,11 +1,11 @@
-
 body {
   font-family: sans-serif;
-  background-image: url(vintage.jpg);
+  background-image: url(clors.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
-  background-color: 
+  background-size: cover;
+  background-position: center bottom;
+  background-color:
 }
 
 
@@ -108,39 +108,70 @@ body {
 
 /*_____________________________*/
 
-.navbar {
-  overflow: hidden;
-  background-color: #ffffff;
+.site_header{
+  font-size: 55px;
+  color: red;
+  font-family: monospace;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 11px;
 }
-.navbar a {
-  float: left;
-  display: block;
-  color: #000000;
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 99%;
+  height: 17%;
+  display: inline-block;
+  border-radius: 20px;
+  z-index: 1;
+  overflow: hidden;
   text-align: center;
-  padding: 14px 20px;
+  top: 5px;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 50px;
   text-decoration: none;
-  transition: .3s;
+  transition: .5s;
+  font-size: 18px;
+  border-radius: 30px;
 }
 .navbar a:hover {
-  background-color: #319BFF;
+  background-color: #000000;
 }
 
 
-img {
-  
+.main {
+  max-width: 75%;
+  height: 1000px;
+  background: rgba(0, 0, 0, .3);
+  margin: auto;
+  z-index: -5;
 }
 
 
 .banjo {
-  float: left;
-  left: -10;
+  right: 0;
+  top: 0;
+  margin-right: -3px;
   position: fixed;
+  width: 15%;
+  max-width: 100%;
+  z-index: 1;
 }
 
 .guitar {
-  float: right;
-  right: -30;
+  left: 0;
+  top: 0;
+  margin-left: -5px;
   position: fixed;
+  width: 11%;
+  max-width: 100%
 }
 
 
@@ -158,10 +189,71 @@ img {
   width: 50%;
 }
 
+
+/*_____________________________*/
+.contact_form {
+  text-align: left;
+  margin-left: 30px;
+  position: relative;
+  margin-bottom: -100px;
+}
+
+.form_div {
+  z-index: -1;
+  background-color: #000000;
+  opacity: .2;
+  border-radius: 10px;
+  height: 450px;
+  width: 500px;
+  position: absolute;
+  margin-left: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.formT {
+  font-size: 30px;
+  color: #000000;
+}
+
+.submitB {
+  text-align: center;
+  border-style: none;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.submitB:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+/*_____________________________*/
+
+.don_form {
+  position: relative;
+  margin: auto;
+  top: 50px;
+}
+
+.donate {
+  margin-left: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 200px;
+  max-width: 100%;
+  max-height: inherit;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
 footer {
   width: 100%;
   height: 200px;
-  background-color: #319BFF;
+  background: rgba(0, 0, 0, .5);
   color: #ffffff;
   bottom: -100000;
   padding: 0px;
@@ -189,9 +281,9 @@ footer a {
 }
 
 .facebook_button {
-  background-color: #319BFF;
   border-style: none;
   border-radius: 30px;
+  background-color: inherit;
   color: #ffffff;
   width: 300px;
   height: 50px;
@@ -202,6 +294,5 @@ footer a {
 }
 
 .facebook_button:hover {
-  background-color: #0067FF;
-  color: 319BFF;
+  background-color: #000000;
 }
