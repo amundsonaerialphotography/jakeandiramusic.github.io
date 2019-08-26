@@ -1,10 +1,9 @@
 function facebookopen() {
 
-  open('https://www.facebook.com/jakeandiramusic/');
+  open('fb://profile/318802922093552');
 
 }
 
 function close1() {
   ppmt.style.display = "none";
 }
-
