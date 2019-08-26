@@ -4,37 +4,7 @@ function facebookopen() {
 
 }
 
-var password = "block";
-
-if (window.location.href == "http://jakeandiramusic.site/?box=allow") {
-  
-  alert(window.location.href);
-  content.style.display = "none";
-  
-  alert("It's looks too stupid, but if you want to see, enter the password! 😏 ");
-  ppmt.style.display = "inline";
-  document.getElementById("ppmt_tx").innerHTML = ("It's looks too stupid, but if you want to see, enter the password! 😏 ");
-
-  
-  
-  
-  
-  function go() {
-  if (password = "iltsm11") {
-    content.style.display = "inline";
-  }}
-  
-  
-  
-  
-  
-  
-}else{
-
-alert("Don't laugh; It's getting a redo😎");
-
-}
-
 function close1() {
   ppmt.style.display = "none";
 }
+
