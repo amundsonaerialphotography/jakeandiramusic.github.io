@@ -1,6 +1,6 @@
 function facebookopen() {
 
-  open('fb://profile/318802922093552');
+  open('fb://page/318802922093552');
 
 }
 
