@@ -2,68 +2,101 @@
   <html>
     <head>
 	    <title>Jake And Ira Music</title>
-	    
+
       <link rel='stylesheet' href='style.css'/>
       <link rel="shortcut icon" href="STRING TIE.ico"/>
       <script src='script.js'></script>
 	    <style>
-		    
+
 	    </style>
     </head>
     <body><div class="content" id="content">
-	
-	
-	    
-	    
-	    
-	    
-	    
+
+
+
+
+
+
+
 <div class="ppmt" id="ppmt">
             <p class="ppmt_tx" id="ppmt_tx"></p>
             <button type="button" name="button" id="close1" onclick="close1()">X</button>
 
 <div id="input1">
-	
+
 	    Password:<input type="password" id="password"/>
             <button type="button" name="button2" id="open1" onclick="()">Enter</button>
-            
+
 </div>
 
       </div>
 
-	    
-	   <a href="/"><img src="j50.png" class="guitar"></img></a>
-	    <a href="/"><img src="neck.png" class="banjo"></img></a>
-	    
-	    
-	    
-	    
-      <center>
-	      
+
+	   <a href="/"></a>
+     <img src="guitar neck.png" class="guitar"></img>
+	    <a href="/"></a>
+      <img src="neck.png" class="banjo"></img>
+
+
+
+
           <div class="navbar">
+            <h1 class="site_header">Jake and Ira</h1>
+
             <a href="/">Home</a>
             <a href="About/">About</a>
             <a href="Photos/">Photos</a>
             <a href="Music/">Music</a>
             <a href="Contact">Contact</a>
           </div>
-	    </center>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+<div class="main">
+
 	    <br/>
 	    <br/>
 	    <br/>
 	    <br/>
 	    <br/>
-	    <br/>
-	  
-	    <img src="IMG_5288 copy.JPG" class="pic1" />
-	  
-	    <br/>
-	    <br/>
-	    <br/>
+
+	    <!-- <img src="IMG_5288 copy.JPG" class="pic1" /> -->
+
+
+
 	    <br/>
 	    <br/>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" margin-left="200px">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="HVV6Y34MYCAXE" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
 	    <br/>
 	    <br/>
+
+      <div id="form_div" class="form_div" name="form_div"></div>
+	<form action="/form" class="contact_form" id="contact_form">
+		<h3 id="formT" class="formT" name="formT">Contact Us!</h3><br/>
+		<input id="name" class="name" name="name" placeholder="Name"/><br/><br/>
+		<input id="email" class="email" name="email" placeholder="Email"/><br/><br/>
+		<input id="subject" class="subject" name="subject" placeholder="Subject"/><br/><br/>
+		    <textarea id="comment" class="comment" name="comment" placeholder="Type comments here" rows="10" cols="50"></textarea><br/><br/>
+		<button id="submitB" class="submitB" onclick="submit_form()">And Submit!</button>
+	</form>
+
+	    <br/>
+	    <br/>
+	    <br/>
+
+</div>
+<br/>
 
 <center>
         <footer>
@@ -75,7 +108,7 @@
               <a href="Photos/">Photos</a>
               <a href="Music/">Music</a>
               <a href="Contact">Contact</a>
-	      
+
           </div>
 		  <br/>
 	          <button onclick="facebookopen()" class="facebook_button">Check out Our Facebook page!</button>
