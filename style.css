@@ -286,7 +286,8 @@ body {
   }
 
   .comment {
-    width: 70%;
+    width: 250px;
+    height: 115px;
   }
 
   .site_header {
