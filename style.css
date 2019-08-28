@@ -255,13 +255,6 @@ body {
 /*_____________________________*/
 @media only screen and (max-width: 990px) {
 
-  .guitar {
-    display: none;
-  }
-
-  .banjo {
-    display: none;
-  }
 
   .main {
     max-width: 100%;
@@ -295,6 +288,45 @@ body {
   }
 
 
+
+}
+
+@media only screen and (min-height: 1000px) {
+  .guitar {
+    display: none;
+  }
+
+  .banjo {
+    display: none;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .guitar {
+    display: none;
+  }
+
+  .banjo {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .site_header {
+    font-size: 40px;
+  }
+
+  .navbar a {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
 
 }
 /*_____________________________*/
