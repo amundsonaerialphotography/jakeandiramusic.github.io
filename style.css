@@ -268,16 +268,16 @@ body {
   }
 
   .form_div {
-    width: 420px;
+    width: 310px;
   }
 
   .donate {
-    width: 400px;
+    width: 350px;
   }
 
   .navbar a {
     font-size: 15px;
-    padding: 10px 17px;
+    padding: 10px 15px;
   }
 
   .navbar {
@@ -287,6 +287,10 @@ body {
 
   .comment {
     width: 70%;
+  }
+
+  .site_header {
+    font-size: 50px;
   }
 
 
