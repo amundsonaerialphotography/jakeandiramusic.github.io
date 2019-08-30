@@ -311,23 +311,6 @@ body {
 }
 
 
-@media only screen and (max-height: 1110px) {
-
-  .guitar {
-    display: none;
-  }
-
-  .banjo {
-    display: none;
-  }
-
-  .main {
-    max-width: 100%;
-  }
-
-}
-
-
 @media only screen and (max-width: 700px) {
 
   .site_header {
@@ -371,7 +354,7 @@ footer a {
   font-size: 5px;
   color: #ffffff;
   cursor: pointer;
-}
+} 
 
 .facebook_button {
   border-style: none;
